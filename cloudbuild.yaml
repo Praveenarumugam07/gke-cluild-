@@ -27,7 +27,7 @@ steps:
     ]
   env:
     - 'CLOUDSDK_COMPUTE_REGION=us-central1'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=Status: OK autopilot-cluster-1'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=autopilot-cluster-1'
 
 images:
 - 'us-central1-docker.pkg.dev/qwiklabs-gcp-01-17b596cb5e63/my-app-repo/flask-app:$SHORT_SHA'
