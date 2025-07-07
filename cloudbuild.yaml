@@ -31,7 +31,6 @@ steps:
 
 images:
 - 'us-central1-docker.pkg.dev/qwiklabs-gcp-01-17b596cb5e63/my-app-repo/flask-app:$SHORT_SHA'
-logsBucket: gs://lkjhyuij/
 
 options:
   logging: CLOUD_LOGGING_ONLY
